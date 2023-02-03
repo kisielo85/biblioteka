@@ -95,7 +95,6 @@ public class Main {
         for (Ksiazka x:ksiazki) {
             if (x.getTytul().toLowerCase().contains(search)){
                 System.out.println("Ksiazka:  "+x.getTytul()+", "+x.getStrony()+" stron");
-
             }
         }
         for (Autor x:autorzy) {
